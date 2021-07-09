@@ -53,12 +53,12 @@ function App() {
         <NavItems>
           <NavItem>
             <Link to="/todos">
-              Todos
+              トップ画面へ
             </Link>
           </NavItem>
           <NavItem>
             <Link to="/todos/new">
-              Add New Todo
+              新しいTodoを追加
             </Link>
           </NavItem>
         </NavItems>

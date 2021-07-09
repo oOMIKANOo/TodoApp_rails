@@ -85,7 +85,7 @@ function TodoList() {
   }, [])
 
   const removeAllTodos = () => {
-    const sure = window.confirm('Are you sure?');
+    const sure = window.confirm('全削除してもよろしいですか');
     if (sure) {
       axios.delete('/api/v1/todos/destroy_all')
       .then(resp => {
@@ -117,13 +117,13 @@ function TodoList() {
       <SearchAndButtton>
         <SearchForm
           type="text"
-          placeholder="Search todo..."
+          placeholder="Todoを検索..."
           onChange={event => {
             setSearchName(event.target.value)
           }}
         />
         <RemoveAllButton onClick={removeAllTodos}>
-          Remove All
+          全削除
         </RemoveAllButton>
       </SearchAndButtton>
 
