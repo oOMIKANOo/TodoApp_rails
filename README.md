@@ -10,24 +10,25 @@ https://nakamorikeito-rails-todo.herokuapp.com/todos
 # DEMO
 
 * トップ画面
-![bandicam 2021-07-09 02-30-03-077](https://user-images.githubusercontent.com/80662039/124966159-ec8a5080-e05d-11eb-8243-01d6057ca2d2.jpg)
+![bandicam 2021-07-10 03-31-53-347](https://user-images.githubusercontent.com/80662039/125121970-b3221580-e12f-11eb-9dfe-9c172303f798.jpg)
 この画面にてタスクの確認や達成のチェックなどをつけられる。
 タスクの検索やタスクの全消去も可能。
-![bandicam 2021-07-09 02-30-45-073](https://user-images.githubusercontent.com/80662039/124966824-b39eab80-e05e-11eb-8ec9-23419abe1f40.jpg)
+![bandicam 2021-07-10 03-32-00-834](https://user-images.githubusercontent.com/80662039/125122016-c7661280-e12f-11eb-8adc-2382ff81e9f7.jpg)
 
 
 * タスクの作成画面
-![bandicam 2021-07-09 02-30-27-297](https://user-images.githubusercontent.com/80662039/124966559-6c181f80-e05e-11eb-9d88-86966ccaf1b0.jpg)
+![bandicam 2021-07-10 03-32-09-052](https://user-images.githubusercontent.com/80662039/125122070-d51b9800-e12f-11eb-8d93-dcf51aee2b4e.jpg)
 タスクの作成完了ボタンは文字を打たないと押せないようにしている。
-![bandicam 2021-07-09 02-30-21-501](https://user-images.githubusercontent.com/80662039/124966633-7fc38600-e05e-11eb-8f12-6bf14480a139.jpg)
+![bandicam 2021-07-10 03-32-29-607](https://user-images.githubusercontent.com/80662039/125122114-e4024a80-e12f-11eb-91e9-9e7b8eed76d1.jpg)
 作成後はトップ画面に戻り、下部に通知が出るようにした。
-![bandicam 2021-07-09 02-31-26-255](https://user-images.githubusercontent.com/80662039/124967200-1abc6000-e05f-11eb-96e8-c76902aaed98.jpg)
+![bandicam 2021-07-10 03-32-37-388](https://user-images.githubusercontent.com/80662039/125122136-ed8bb280-e12f-11eb-9079-366cb39a7ec0.jpg)
 
 * タスク編集画面
-![bandicam 2021-07-09 02-30-37-926](https://user-images.githubusercontent.com/80662039/124966898-c4e7b800-e05e-11eb-8148-3419ddba7c6f.jpg)
+![bandicam 2021-07-10 03-32-52-811](https://user-images.githubusercontent.com/80662039/125122176-fbd9ce80-e12f-11eb-8de4-347f885311b6.jpg)
 各タスクに対してさまざまな処理ができる。
 編集後はダイアログがでるようにした。
-![bandicam 2021-07-09 02-31-06-353](https://user-images.githubusercontent.com/80662039/124967077-fb253780-e05e-11eb-8d10-1a0aea41891a.jpg)
+![bandicam 2021-07-10 03-33-07-949](https://user-images.githubusercontent.com/80662039/125122222-0c8a4480-e130-11eb-9e8b-e837a774ca07.jpg)
+
 
 # Features
 
