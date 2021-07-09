@@ -64,7 +64,7 @@ function EditTodo(props) {
   const [currentTodo, setCurrentTodo] = useState(initialTodoState)
 
   const notify = () => {
-    toast.success('Todo successfully updated!', {
+    toast.success('Todoの更新に成功しました', {
       position: 'bottom-center',
       hideProgressBar: true
     })
@@ -113,7 +113,7 @@ function EditTodo(props) {
   }
 
   const deleteTodo = () => {
-    const sure = window.confirm('Are you sure?')
+    const sure = window.confirm('削除してもいいですか')
     if (sure) {
       axios.delete(`/api/v1/todos/${currentTodo.id}`)
       .then(resp => {
@@ -126,10 +126,10 @@ function EditTodo(props) {
   }
   return (
     <>
-      <h1>Editing Todo</h1>
+      <h1>Todoを編集する</h1>
       <div>
         <div>
-          <label htmlFor="name">Current Name</label>
+          <label htmlFor="name">現在の名前</label>
           <InputName
             type="text"
             name="name"
@@ -137,26 +137,26 @@ function EditTodo(props) {
             onChange={handleInputChange}
           />
           <div>
-            <span>Current Status</span><br/>
+            <span>現在の達成度</span><br/>
             <CurrentStatus>
-              {currentTodo.is_completed ? "Completed" : "Uncompleted" }
+              {currentTodo.is_completed ? "達成" : "未達成" }
             </CurrentStatus>
           </div>
         </div>
         {currentTodo.is_completed ? (
           <IsCompletedButton onClick={() => updateIsCompleted(currentTodo)}>
-            Uncompleted
+            未達成
           </IsCompletedButton>
         ) : (
           <IsCompletedButton onClick={() => updateIsCompleted(currentTodo)}>
-            Completed
+            達成
           </IsCompletedButton>
         )}
         <EditButton onClick={updateTodo}>
-          Update
+          更新
         </EditButton>
         <DeleteButton onClick={deleteTodo}>
-          Delete
+          削除
         </DeleteButton>
       </div>
     </>

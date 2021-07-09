@@ -57,7 +57,7 @@ function AddTodo(props) {
   }
 
   const notify = () => {
-    toast.success('Todo successfully created!', {
+    toast.success('Todoの作成に成功しました', {
       position: 'bottom-center',
       hideProgressBar: true
     })
@@ -84,7 +84,7 @@ function AddTodo(props) {
   }
   return (
     <>
-      <h1>New Todo</h1>
+      <h1>新しいTodo</h1>
       <InputAndButton>
         <InputName
           type="text"
