@@ -4,8 +4,7 @@
 railsとreactで作る方法はいろいろありますが、今回はwebpackerを使って作りました。
 初体験の技術（特にフロントサイドは何も知らなかった）ばかりで構成したので、実用性
 はありませんが、いい勉強になりました。
-herokuにてデプロイして公開しています。
-https://nakamorikeito-rails-todo.herokuapp.com/todos
+
 
 # DEMO
 
